@@ -9,7 +9,7 @@ Before proceeding with the UI Design Library, we are assuming that you are alrea
 #### Download UI Design Library
 Download the latest version of UI Design Library [here](http://uspto.github.io/designpatterns/1.x/docs/resources.html).
 
-![download-usptostrap](https://github.com/USPTO/designpatterns/tree/gh-pages/resources/tut-resources/ui-intro.png)
+![download-usptostrap](https://raw.githubusercontent.com/USPTO/designpatterns/gh-pages/resources/tut-resources/ui-intro.png)
 
 ---
 
@@ -22,7 +22,7 @@ Download the latest version of UI Design Library [here](http://uspto.github.io/d
 #### File Structure
 If you have downloaded the UI Design Library source code then the file structure would be as follows:
 
-![file-structure](https://github.com/USPTO/designpatterns/tree/gh-pages/resources/tut-resources/ui-file-structure.png)
+![file-structure](https://raw.githubusercontent.com/USPTO/designpatterns/gh-pages/resources/tut-resources/ui-file-structure.png)
 
 ---
 
