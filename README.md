@@ -3,6 +3,7 @@ USPTO UI Design Library
 
 - [View the UI Design Library](https://uspto.github.io/designpatterns/)
 - [Contributing](CONTRIBUTING.md)
+- [How-to: Using the UI Design Library in your project](howto.md)
 - [Terms](TERMS.md)
 - [License](LICENSE)
 
