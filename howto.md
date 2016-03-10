@@ -11,7 +11,6 @@ Download the latest version of UI Design Library [here](http://uspto.github.io/d
 
 ![download-usptostrap](https://raw.githubusercontent.com/USPTO/designpatterns/gh-pages/resources/tut-resources/ui-intro.png)
 
----
 
 ##### Resources:
 - Download CSS/LESS: Download the precompiled and minified versions of UI Design Library CSS, SVG image, and less. No documentation or original source code files are included. 
