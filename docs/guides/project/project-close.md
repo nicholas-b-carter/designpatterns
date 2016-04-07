@@ -4,7 +4,7 @@ title: "Project close"
 
 <div class="pl-pattern">
 
-<h3>Section heading here</h3>
+<h3>Project close</h3>
 
 When a project is ending or the team transitioning, it is important that knowledge transfer occurs.
 
