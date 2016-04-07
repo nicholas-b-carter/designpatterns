@@ -32,7 +32,7 @@ Guidance on transferring knowledge the team has gained.
 
 > <span class="label label-info">Beta</span> This is a new template - your feedback will help us improve it.
 
-### UXlead transition template
+### UX Lead transition template
 
 #### Description
 
