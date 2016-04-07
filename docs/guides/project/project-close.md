@@ -15,13 +15,9 @@ When a project is ending or the team transitioning, it is important that knowled
 
 ### Project transition template
 
-#### Purpose
-
-Transfer knowledge team has gained
-
 #### Description
 
-Description of document goes here
+Guidance on transferring knowledge the team has gained.
 
 {::nomarkdown}
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-projecttransition">Preview template</button>
@@ -45,7 +41,7 @@ Description of document goes here
 
 #### Download	
 
-<a href="../downloads/project-transition.docx"><i class="icon icon-file-pdf-o" style="margin-right: 5px"></i>project-transition.docx</a>
+<a href="../downloads/project-transition.docx"><i class="icon icon-file-word-o" style="margin-right: 5px"></i>project-transition.docx</a>
 
 <br><br>
 </div>
