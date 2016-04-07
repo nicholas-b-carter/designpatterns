@@ -27,3 +27,20 @@ Post-test Satisfaction questionnaire. Mandatory for use during all USPTO usabili
 
 <br><br>
 </div>
+
+<div class="pl-pattern">
+
+> <span class="label label-info">Alpha</span> This is a new template - your feedback will help us improve it.
+
+### Guidelines for Observers
+
+#### Description
+
+Background information for observers to minimize disruption during sessions.
+
+#### Download	
+
+<a href="../downloads/guide-observers.docx"><i class="icon icon-file-word-o" style="margin-right: 5px"></i>guide-observers.docx</a>
+
+<br><br>
+</div>
