@@ -13,6 +13,8 @@ Templates to make usability testing easier, faster, and more consistant.
 
 <div class="pl-pattern">
 
+{::nomarkdown}<div><h4><span class="label label-info">Beta</span>This is a new template - your feedback will help us improve it.</h4></div>{:/nomarkdown}
+
 ### Software Usability Survey - \(SUS all positive version\)
 
 #### Description
