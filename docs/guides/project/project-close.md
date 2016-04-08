@@ -12,7 +12,7 @@ When a project or phase is ending, it is important that knowledge transfer occur
 </div>
 
 <div class="pl-pattern">
-<h5 class="text-muted normal"><span class="label label-info">Beta</span> This is a new template - your feedback will help us improve it.</h5>
+<h5 class="text-muted normal"><span class="label label-info">BETA</span> This is a new template - your feedback will help us improve it.</h5>
 
 <br>
 
@@ -27,7 +27,7 @@ Guidance on transferring knowledge the team has gained.
 
 <div class="pl-pattern">
 
-<h5 class="text-muted normal"><span class="label label-info">Beta</span> This is a new template - your feedback will help us improve it.</h5>
+<h5 class="text-muted normal"><span class="label label-info">BETA</span> This is a new template - your feedback will help us improve it.</h5>
 
 <br>
 

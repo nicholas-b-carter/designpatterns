@@ -13,7 +13,7 @@ Templates to make usability testing easier, faster, and more consistant.
 
 <div class="pl-pattern">
 
-<h5 class="text-muted normal"> <span class="label label-info">Beta</span> This is a new template - your feedback will help us improve it.</h5>
+<h5 class="text-muted normal"> <span class="label label-info">BETA</span> This is a new template - your feedback will help us improve it.</h5>
 
 <br>
 
@@ -28,7 +28,7 @@ Post-test Satisfaction questionnaire. Mandatory for use during all USPTO usabili
 
 <div class="pl-pattern">
 
-<h5 class="text-muted normal"><span class="label label-info">Alpha</span> This is a new template - your feedback will help us improve it.</h5>
+<h5 class="text-muted normal"><span class="label label-info">ALPHA</span> This is a new template - your feedback will help us improve it.</h5>
 
 <br>
 
