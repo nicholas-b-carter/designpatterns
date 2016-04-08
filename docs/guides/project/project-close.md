@@ -12,14 +12,15 @@ When a project or phase is ending, it is important that knowledge transfer occur
 </div>
 
 <div class="pl-pattern">
-
+<div class="pl-preview">
 <h5 class="text-muted normal"><span class="label label-info">Beta</span> This is a new template - your feedback will help us improve it.</h5>
+</div>
 
 ### Project transition guidance
 
 Guidance on transferring knowledge the team has gained.	
 
-<a class="btn btn-primary" href="../downloads/project-transition.docx"><i class="icon icon-file-word-o" style="margin-right: 5px"></i>Download</a>
+<a href="../downloads/project-transition.docx"><i class="icon icon-file-word-o" style="margin-right: 5px"></i>project-transition.docx</a>
 
 <br><br>
 </div>
