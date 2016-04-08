@@ -15,6 +15,7 @@ Templates to make usability testing easier, faster, and more consistant.
 
 <h5 class="text-muted normal"> <span class="label label-info">Beta</span> This is a new template - your feedback will help us improve it.</h5>
 
+<br>
 
 ### Software Usability Survey - \(all positive version\)
 
@@ -28,6 +29,8 @@ Post-test Satisfaction questionnaire. Mandatory for use during all USPTO usabili
 <div class="pl-pattern">
 
 <h5 class="text-muted normal"><span class="label label-info">Alpha</span> This is a new template - your feedback will help us improve it.</h5>
+
+<br>
 
 ### Guidelines for Observers
 
