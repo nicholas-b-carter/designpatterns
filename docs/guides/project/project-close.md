@@ -13,7 +13,7 @@ When a project or phase is ending, it is important that knowledge transfer occur
 
 <div class="pl-pattern">
 
-<span class="label label-info">Beta</span> This is a new template - your feedback will help us improve it.
+<h5 class="text-muted normal"><span class="label label-info">Beta</span> This is a new template - your feedback will help us improve it.</h5>
 
 ### Project transition guidance
 
@@ -30,7 +30,7 @@ Guidance on transferring knowledge the team has gained.
 
 <div class="pl-pattern">
 
-<span class="label label-info">Beta</span> This is a new template - your feedback will help us improve it.
+<h5 class="text-muted normal"><span class="label label-info">Beta</span> This is a new template - your feedback will help us improve it.</h5>
 
 ### UX Lead transition template
 
