@@ -13,7 +13,7 @@ Templates to make usability testing easier, faster, and more consistant.
 
 <div class="pl-pattern">
 
-<span class="label label-info">Beta</span> This is a new template - your feedback will help us improve it.
+<h2 class="text-muted"> <span class="label label-info">Beta</span> This is a new template - your feedback will help us improve it.</h2>
 
 
 ### Software Usability Survey - \(all positive version\)
