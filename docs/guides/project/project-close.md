@@ -17,13 +17,9 @@ When a project or phase is ending, it is important that knowledge transfer occur
 
 ### Project transition guidance
 
-#### Description
+Guidance on transferring knowledge the team has gained.	
 
-Guidance on transferring knowledge the team has gained.
-
-#### Download	
-
-<a href="../downloads/project-transition.docx"><i class="icon icon-file-word-o" style="margin-right: 5px"></i>project-transition.docx</a>
+<a class="btn btn-primary" href="../downloads/project-transition.docx"><i class="icon icon-file-word-o" style="margin-right: 5px"></i>Download</a>
 
 <br><br>
 </div>
@@ -34,11 +30,7 @@ Guidance on transferring knowledge the team has gained.
 
 ### UX Lead transition template
 
-#### Description
-
-Template for transferring knowledge and ongoing activities/responsibilities of the project UX lead.
-
-#### Download	
+Template for transferring knowledge and ongoing activities/responsibilities of the project UX lead.	
 
 <a href="../downloads/UXlead-transition.docx"><i class="icon icon-file-word-o" style="margin-right: 5px"></i>UXlead-transition.docx</a>
 
