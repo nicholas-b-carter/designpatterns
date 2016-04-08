@@ -8,7 +8,7 @@ title: "Transitions"
 
 When a project or phase is ending, it is important that knowledge transfer occurs.
 
-<br><br>
+<br>
 </div>
 
 <div class="pl-pattern">
@@ -22,7 +22,7 @@ Guidance on transferring knowledge the team has gained.
 
 <a href="../downloads/project-transition.docx"><i class="icon icon-file-word-o" style="margin-right: 5px"></i>project-transition.docx</a>
 
-<br><br>
+<br>
 </div>
 
 <div class="pl-pattern">
