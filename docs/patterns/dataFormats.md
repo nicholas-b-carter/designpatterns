@@ -26,10 +26,6 @@ title: "Data formats"
             <td>Apr 23, 2010</td>
         </tr>
         <tr>
-            <td><code>condensed long date</code></td>
-            <td>MM/DD/YYYY, DD/MM/YYYY, or YYYY/MM/DD</td>
-        </tr>
-        <tr>
             <td><code>short date and time</code></td>
             <td>Feb 5, 8:00 AM</td>
         </tr>
@@ -48,19 +44,6 @@ title: "Data formats"
     </tbody>
 </table>
 {:/nomarkdown}
-
-
-#### Condensed long date usage
-
-The condensed version of the long date format has 3 variations:
-
-- `MM/DD/YYYY` (05/12/2015)
-- `DD/MM/YYYY` (12/05/2015)
-- `YYYY/MM/DD` (2015/12/05)
-
-`MM/DD/YYYY` is the format most used in the US, whereas `DD/MM/YYYY` is used most outside the US. Depending on the date, the format, and the geographical location or customs of the user, a date has the potential for being misinterpreted if the format is not what the user is expecting. The only non-ambiguous format is `YYYY/MM/DD`.
-
-Depending on your target audience, determine which format makes the most sense for your application.
 
 
 #### Smart format
@@ -128,3 +111,39 @@ For dates/times associated with user generated data (e.g., notes, documents), us
 &nbsp;
 
 </div>
+
+<div class="pl-pattern" style="border:orange">
+### Depreciated
+
+##### The patterns below have been depreciated. Please ensure you are using the current standardized date format above.
+
+{::nomarkdown}
+<table class="table table-bordered" style="max-width: 700px;">
+    <colgroup>
+        <col style="width: 50%">
+        <col style="width: 50%;">
+    </colgroup>
+    <tbody>    
+        <tr>
+            <td><code>condensed long date</code></td>
+            <td>MM/DD/YYYY, DD/MM/YYYY, or YYYY/MM/DD</td>
+        </tr>
+    </tbody>
+</table>
+{:/nomarkdown}
+
+#### Condensed long date usage
+
+The condensed version of the long date format has 3 variations:
+
+- `MM/DD/YYYY` (05/12/2015)
+- `DD/MM/YYYY` (12/05/2015)
+- `YYYY/MM/DD` (2015/12/05)
+
+`MM/DD/YYYY` is the format most used in the US, whereas `DD/MM/YYYY` is used most outside the US. Depending on the date, the format, and the geographical location or customs of the user, a date has the potential for being misinterpreted if the format is not what the user is expecting. The only non-ambiguous format is `YYYY/MM/DD`.
+
+Depending on your target audience, determine which format makes the most sense for your application.
+
+&nbsp;
+</div>
+&nbsp;
