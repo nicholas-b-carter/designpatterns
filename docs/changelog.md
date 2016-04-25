@@ -7,6 +7,19 @@ layout: pattern
 
 
 <div class="pl-versions">
+<div class="pl-panel">
+        <h4>1.4.4 - April 25, 2016 <a href="{{site.repository.url}}/releases/tag/v1.4.4">(Download)</a></h4>
+        <span class="label subtle label-success">NEW</span>
+        <ul>
+            <li>Update to data format patterns</li>
+            <li>New BETA guides section</li>
+            <li>Developer how-to documentation</li>
+        </ul>
+        <span class="label subtle label-success">IMPROVED</span>
+        <ul>
+            <li>Changes to bower.json file to facilitate easier consumption of the Design Library into developer projects</li>
+        </ul>
+    </div>
  <div class="pl-panel">
         <h4>1.4.3 - Feb 2, 2016 <a href="{{site.repository.url}}/releases/tag/v1.4.3">(Download)</a></h4>
         <span class="label subtle label-success">NEW</span>
