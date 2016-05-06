@@ -1,6 +1,11 @@
 {
   "name": "USPTOPatternLibrary",
+  "version": "1.4.2",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/USPTO/designpatterns.git"
+  },
   "dependencies": {
     "jquery": "~1.11.0",
     "jquery.inputmask": "~3.1.26",
@@ -8,6 +13,28 @@
     "bootstrap": "~3.3.6",
     "select2": "~3.5.1",
     "nouislider": "~7.0.10",
-    "bootstrap-timepicker": "^0.5.2"
-  }
+    "bootstrap-timepicker": "^0.5.2"  
+  },
+  "main": [
+    "usptostrap/less/usptostrap.less"
+  ],
+  "ignore": [
+    "**/.*",
+    "docs",
+    "downloads",
+    "resources",
+    "1.x",
+    "2.x",
+    "3.x",
+    "front",
+    "salt",
+    "_layouts",
+    "_includes",
+    "Gruntfile.js",
+    "Vagrantfile",
+    "_config*",
+    "howto.md",
+    "index.html",
+    "todo.md"
+  ]
 }
