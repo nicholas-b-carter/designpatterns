@@ -641,22 +641,21 @@ Time pickers can provide:
 <div class="container-fluid" style="max-width: 400px; margin: 0;">
     <div class="row">
         <form role="form" class="col-sm-12 form-horizontal">
-        
-      <label for="tp1" class="col-sm-3 control-label">Incremental</label>
-       <div class="input-group bootstrap-timepicker timepicker">
-            <input id="timepicker-default" type="text" class="form-control input-small">
-            <span class="input-group-addon"><i class="icon icon-clock-o"></i></span>
-        </div>
+            <label class="col-sm-3 control-label">Incremental</label>
+            <div class="input-group bootstrap-timepicker timepicker">
+                <span class="input-group-addon"><i class="icon icon-clock-o"></i></span>
+                <input id="timepicker-default" type="text" class="form-control input-small">
+            </div>
         </form>
     </div>
     <div class="row">&nbsp;</div>
     <div class="row">
-    <form role="form" class="col-sm-12 form-horizontal">
-     <label for="tp2" class="col-sm-3 control-label">Expanded</label>
-       <div class="input-group bootstrap-timepicker timepicker">
-            <input id="timepicker-freeform" type="text" class="form-control input-small">
-            <span class="input-group-addon"><i class="icon icon-clock-o"></i></span>
-        </div>
+        <form role="form" class="col-sm-12 form-horizontal">
+            <label class="col-sm-3 control-label">Expanded</label>
+            <div class="input-group bootstrap-timepicker timepicker">
+                <span class="input-group-addon"><i class="icon icon-clock-o"></i></span>
+                <input id="timepicker-freeform" type="text" class="form-control input-small">
+            </div>
         </form>
         </div>
 </div>
@@ -668,11 +667,11 @@ Time pickers can provide:
 {% highlight html %}
  <div class="row">
         <form role="form" class="col-sm-12 form-horizontal">
-            <label for="tp1" class="col-sm-3 control-label">Label</label>
-                <div class="input-group bootstrap-timepicker timepicker">
-                    <input id="timepicker-default" type="text" class="form-control input-small">
-                    <span class="input-group-addon"><i class="icon icon-clock-o"></i></span>
-                </div>
+            <label class="col-sm-3 control-label">Label</label>
+            <div class="input-group bootstrap-timepicker timepicker">
+                <span class="input-group-addon"><i class="icon icon-clock-o"></i></span>
+                <input id="timepicker-freeform" type="text" class="form-control input-small">
+            </div>
         </form>
     </div>
 {% endhighlight %}

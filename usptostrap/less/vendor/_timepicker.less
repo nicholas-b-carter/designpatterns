@@ -10,7 +10,12 @@
  */
 .bootstrap-timepicker {
     position: relative;
-
+    
+    input { 
+        border-left-color:transparent;
+        padding: 6px 12px 6px 0px;
+    }
+    
     &.pull-right {
         .bootstrap-timepicker-widget {
             &.dropdown-menu {
@@ -31,10 +36,16 @@
 
     .input-group-addon {
         cursor: pointer;
+        background-color:transparent;
+        border-right-color:#fff;
+        padding:6px 6px;
+        
         i {
            display: inline-block;
            width: 16px;
            height: 16px;
+            opacity: .35;
+            
         }
     }
 }
