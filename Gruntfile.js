@@ -164,6 +164,7 @@ module.exports = function (grunt) {
                     'bower_components/jquery.inputmask/dist/inputmask/jquery.inputmask.regex.extensions.js',
                     'bower_components/select2/select2.js',
                     'bower_components/nouislider/distribute/jquery.nouislider.all.min.js',
+                    'bower_components/bootstrap-timepicker/js/bootstrap-timepicker.js',
                     'front/vendor/jquery-ui-1.11.1.custom/jquery-ui.js'],
                 dest: '<%= paths.assets %>/scripts/vendor.js'
             },
