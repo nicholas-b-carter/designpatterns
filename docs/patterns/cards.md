@@ -23,7 +23,7 @@ Cards support a wide variety of content, including images, text, list groups, li
 
 {::nomarkdown}
 <div class="pl-preview">
-    <div class="row" style="margin:50px 0">
+    <div class="row" style="margin:50px 0; max-width:980px">
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-4">
             <div class="card">
                 <div class="card-header">
@@ -84,7 +84,7 @@ Images can be positioned inside of cards quickly and easily with `.card-image`. 
 
 {::nomarkdown}
 <div class="pl-preview">
-    <div class="row" style="margin:50px 0">
+    <div class="row" style="margin:50px 0; max-width:980px">
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <div class="card">
               <img class="card-img-top img-responsive" style="opacity: .7" src="/designpatterns/generated/images/place-holder.png" alt="Card image cap">
@@ -147,7 +147,7 @@ Turn an image into a card background and overlay your card’s text. Depending o
 
 {::nomarkdown}
 <div class="pl-preview">
-    <div class="row" style="margin:50px 0">
+    <div class="row" style="margin:50px 0; max-width:980px">
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-4">
             <div class="card">
                   <img class="card-img img-responsive" src="/designpatterns/generated/images/place-holder.png" style="opacity:.2" alt="Card image">
@@ -188,7 +188,7 @@ Cards include their own variant classes for quickly changing the background-colo
 
 {::nomarkdown}
 <div class="pl-preview">
-    <div class="row" style="margin:50px 0">
+    <div class="row" style="margin:50px 0; max-width:980px">
         <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
             <div class="card card-inverse card-primary text-xs-center">
               <div class="card-block">
@@ -250,7 +250,7 @@ Add an optional header and/or footer within a card.
 
 {::nomarkdown}
 <div class="pl-preview">
-    <div class="row" style="margin:50px 0">
+    <div class="row" style="margin:50px 0; max-width:980px">
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <div class="card">
               <div class="card-header">
@@ -312,7 +312,7 @@ Use card groups to render cards as a single, attached element with equal width a
 
 {::nomarkdown}
 <div class="pl-preview">
-    <div class="row" style="margin:50px 0">
+    <div class="row" style="margin:50px 0; max-width:980px">
         <div class="col-xs-12">
             <div class="card-group">
               <div class="card">
@@ -381,7 +381,7 @@ Need a set of equal width and height cards that aren’t attached to one another
 
 {::nomarkdown}
 <div class="pl-preview">
-    <div class="row" style="margin:50px 0">
+    <div class="row" style="margin:50px 0; max-width:980px">
         <div class="col-xs-12">
             <div class="card-deck-wrapper">
               <div class="card-deck">
@@ -450,7 +450,7 @@ Cards can be organized into Masonry-like columns with just CSS by wrapping them 
 
 {::nomarkdown}
 <div class="pl-preview">
-    <div class="row" style="margin:50px 0">
+    <div class="row" style="margin:50px 0; max-width:980px">
         <div class="col-xs-12">
             <div class="card-columns">
               <div class="card">
