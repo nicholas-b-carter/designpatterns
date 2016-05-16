@@ -35,6 +35,10 @@ defaults:
       path: "docs"
     values:
       layout: "pattern"
+  - scope:
+      path: "docs/guides"
+    values:
+      layout: "guide"
 
 # All email links will use this variable
 email: contactUXD@uspto.gov?subject=USPTO UI Design Library
@@ -45,11 +49,11 @@ repository:
   url: https://github.com/uspto/designpatterns
 
 # The latest stable version
-version: 1.4.3
+version: 1.5.0
 
 # The list of all versions, which are referenced on the home page
 versions:
-  - name: 1.4.3
+  - name: 1.5.0
     url: /designpatterns/1.x/docs
   - name: future
     url: /designpatterns/docs
@@ -60,3 +64,12 @@ doctypes:
   - components
   - patterns
   - inspiration
+
+guidetypes:
+  - project
+  - research
+  - requirements
+  - design
+  - evaluation
+
+

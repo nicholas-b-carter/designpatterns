@@ -48,8 +48,11 @@
                         <a href="/designpatterns/1.x/docs/resources.html">Resources</a>
                     </li>
                     <li  >
-                        <a href="/designpatterns/1.x/docs/changelog.html">Changelog</a>
+                        <a href="/designpatterns/1.x/docs/guides/">Guides</a>
                     </li>
+                    <li  >
+                        <a href="/designpatterns/1.x/docs/changelog.html">Changelog</a>
+                    </li>                    
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li>
@@ -64,6 +67,8 @@
             <ul class="nav nav-stacked">
                 
                     <li class="category">foundation</li>
+                    
+                        
                     
                         
                     
@@ -154,6 +159,8 @@
                         
                     
                         
+                    
+                        
                             
                                 
                                     <li  >
@@ -171,6 +178,8 @@
                                     </li>
                                 
                             
+                        
+                    
                         
                     
                         
@@ -254,6 +263,8 @@
                         
                     
                         
+                    
+                        
                             
                         
                     
@@ -292,6 +303,8 @@
                                     </li>
                                 
                             
+                        
+                    
                         
                     
                         
@@ -354,6 +367,8 @@
                                     </li>
                                 
                             
+                        
+                    
                         
                     
                         
@@ -459,6 +474,8 @@
                         
                     
                         
+                    
+                        
                             
                                 
                                     <li  >
@@ -530,6 +547,8 @@
                     
                         
                     
+                        
+                    
                 
                     <li class="category">patterns</li>
                     
@@ -541,6 +560,16 @@
                     
                         
                     
+                        
+                    
+                        
+                            
+                                
+                                    <li  >
+                                        <a  href="/designpatterns/1.x/docs/patterns/cards.html"> Cards </a>
+                                    </li>
+                                
+                            
                         
                     
                         
@@ -654,6 +683,10 @@
                         
                     
                         
+                    
+                        
+                    
+                        
                             
                                 
                                     <li  >
@@ -712,6 +745,8 @@
                         
                     
                         
+                    
+                        
                             
                                 
                                     <li  >
@@ -734,6 +769,8 @@
                     
                         
                             
+                        
+                    
                         
                     
                         
@@ -829,6 +866,8 @@
                         
                     
                         
+                    
+                        
                             
                                 
                                     <li  >
@@ -866,6 +905,8 @@
                     
                         
                             
+                        
+                    
                         
                     
                         
@@ -925,6 +966,8 @@
                         
                     
                         
+                    
+                        
                             
                                 
                                     <li  >
@@ -954,7 +997,7 @@
   <p><strong>Do</strong></p>
 
   <ul>
-    <li>Consistently use <code>#</code> or <code>number</code> in labels</li>
+    <li>Consistently use <code class="highlighter-rouge">#</code> or <code class="highlighter-rouge">number</code> in labels</li>
     <li>Indicate empty/blank values with an em-dash (—)</li>
     <li>Reflow columns based on available screen real estate</li>
     <li>Sentence case labels</li>
@@ -996,14 +1039,14 @@
 </div>
 </div>
 
-  <div class="highlight">
-    <pre><code class="language-html" data-lang="html"><span class="nt">&lt;dl</span> <span class="na">class=</span><span class="s">&quot;dl-horizontal&quot;</span><span class="nt">&gt;</span>
+  <figure class="highlight">
+    <pre><code class="language-html" data-lang="html"><span class="nt">&lt;dl</span> <span class="na">class=</span><span class="s">"dl-horizontal"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;dt&gt;</span>Confirmation #<span class="nt">&lt;/dt&gt;</span>
     <span class="nt">&lt;dd&gt;</span>1662<span class="nt">&lt;/dd&gt;</span>
     <span class="nt">&lt;dt&gt;</span>Patent #<span class="nt">&lt;/dt&gt;</span>
     <span class="nt">&lt;dd&gt;</span><span class="ni">&amp;mdash;</span><span class="nt">&lt;/dd&gt;</span>
 <span class="nt">&lt;/dl&gt;</span></code></pre>
-  </div>
+  </figure>
 
   <h4 id="vertical">Vertical</h4>
   <p>Useful for longer labels/values.</p>
@@ -1029,14 +1072,14 @@
 </div>
 </div>
 
-  <div class="highlight">
+  <figure class="highlight">
     <pre><code class="language-html" data-lang="html"><span class="nt">&lt;dl&gt;</span>
     <span class="nt">&lt;dt&gt;</span>Examiner<span class="nt">&lt;/dt&gt;</span>
     <span class="nt">&lt;dd&gt;</span>IP, Sikyin / 69776 / 1742<span class="nt">&lt;/dd&gt;</span>
     <span class="nt">&lt;dt&gt;</span>SPE (multiple)<span class="nt">&lt;/dt&gt;</span>
     <span class="nt">&lt;dd&gt;</span>John Olaskey<span class="nt">&lt;/dd&gt;</span>
 <span class="nt">&lt;/dl&gt;</span></code></pre>
-  </div>
+  </figure>
 
   <h4 id="inline">Inline</h4>
   <p>Useful for few labels/values.</p>
@@ -1056,8 +1099,8 @@
 </div>
 </div>
 
-  <div class="highlight">
-    <pre><code class="language-html" data-lang="html"><span class="nt">&lt;dl</span> <span class="na">class=</span><span class="s">&quot;dl-inline&quot;</span><span class="nt">&gt;</span>
+  <figure class="highlight">
+    <pre><code class="language-html" data-lang="html"><span class="nt">&lt;dl</span> <span class="na">class=</span><span class="s">"dl-inline"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;dt&gt;</span>Created<span class="nt">&lt;/dt&gt;</span>
     <span class="nt">&lt;dd&gt;</span>Mar 5, 2014<span class="nt">&lt;/dd&gt;</span>
     <span class="nt">&lt;dt&gt;</span>Views<span class="nt">&lt;/dt&gt;</span>
@@ -1065,7 +1108,52 @@
     <span class="nt">&lt;dt&gt;</span>Status<span class="nt">&lt;/dt&gt;</span>
     <span class="nt">&lt;dd&gt;</span>Approved<span class="nt">&lt;/dd&gt;</span>
 <span class="nt">&lt;/dl&gt;</span></code></pre>
-  </div>
+  </figure>
+
+  <h4 id="inverse">Inverse</h4>
+  <p>For scenarios where the label pair bolding should be reversed use <code class="highlighter-rouge">.dl-inverse</code>.</p>
+
+<div class="pl-preview">
+<div class="row">
+    <div class="col-md-6">
+        <dl class="dl-horizontal dl-inverse">
+            <dt>Examiner</dt>
+            <dd>IP, Sikyin / 69776 / 1742</dd>
+            <dt>SPE (multiple)</dt>
+            <dd>John Olaskey</dd>
+            <dt>Applicants</dt>
+            <dd>Roman Amirpur</dd>
+            <dt>Inventors</dt>
+            <dd>Disney Dale</dd>
+            <dt>Law firm</dt>
+            <dd>Clayton & Clayton Associates</dd>
+        </dl>
+    </div>
+    <div class="col-md-6">
+        <dl class="dl-horizontal dl-inverse">
+            <dt>Confirmation #</dt>
+            <dd>1662</dd>
+            <dt>Publication #</dt>
+            <dd><a href="">32132132132 <i class="icon icon-external-link"></i></a></dd>
+            <dt>Patent #</dt>
+            <dd>&mdash;</dd>
+            <dt>Attorney docket #</dt>
+            <dd>10951/1202</dd>
+            <dt>Foreign priority claimed</dt>
+            <dd>Yes</dd>
+        </dl>
+    </div>
+</div>
+</div>
+
+  <figure class="highlight">
+    <pre><code class="language-html" data-lang="html"><span class="nt">&lt;dl</span> <span class="na">class=</span><span class="s">"dl-horizontal dl-inverse"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;dt&gt;</span>Confirmation #<span class="nt">&lt;/dt&gt;</span>
+    <span class="nt">&lt;dd&gt;</span>1662<span class="nt">&lt;/dd&gt;</span>
+    <span class="nt">&lt;dt&gt;</span>Patent #<span class="nt">&lt;/dt&gt;</span>
+    <span class="nt">&lt;dd&gt;</span><span class="ni">&amp;mdash;</span><span class="nt">&lt;/dd&gt;</span>
+<span class="nt">&lt;/dl&gt;</span></code></pre>
+  </figure>
 
 </div>
 

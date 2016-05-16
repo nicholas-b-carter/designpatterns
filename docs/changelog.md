@@ -7,8 +7,38 @@ layout: pattern
 
 
 <div class="pl-versions">
+<div class="pl-panel">
+        <h4>1.5.0 - May 16, 2016 <a href="{{site.repository.url}}/releases/tag/v1.4.5">(Download)</a></h4>
+        <span class="label subtle label-success">NEW</span>
+        <ul>
+            <li>Introduction of Bootstrap 4 style cards (beta)</li>
+            <li>Addition of new toast notification style options</li>
+            <li>Addition of optional inverse label pairs</li>
+            <li>New time picker component</li>
+            <li>New time picker component</li>
+            
+        </ul>
+        <span class="label subtle label-success">IMPROVED</span>
+        <ul>
+            <li>Various bug fixes</li>
+            <li>Documentation corrections</li>
+        </ul>
+    </div>
+<div class="pl-panel">
+        <h4>1.4.4 - April 25, 2016 <a href="{{site.repository.url}}/releases/tag/v1.4.4">(Download)</a></h4>
+        <span class="label subtle label-success">NEW</span>
+        <ul>
+            <li>Update to data format patterns</li>
+            <li>New BETA guides section</li>
+            <li>Developer how-to documentation</li>
+        </ul>
+        <span class="label subtle label-success">IMPROVED</span>
+        <ul>
+            <li>Changes to bower.json file to facilitate easier consumption of the Design Library into developer projects</li>
+        </ul>
+    </div>
  <div class="pl-panel">
-        <h4>1.4.3 - Feb 21, 2016 <a href="{{site.repository.url}}/releases/tag/v1.4.3">(Download)</a></h4>
+        <h4>1.4.3 - Feb 2, 2016 <a href="{{site.repository.url}}/releases/tag/v1.4.3">(Download)</a></h4>
         <span class="label subtle label-success">NEW</span>
         <ul>
             <li>Addition of foundation -> links page and language</li>

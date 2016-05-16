@@ -622,6 +622,60 @@ Date pickers can provide:
 {% endhighlight %}
 </div>
 
+<div class="pl-pattern">
+### Time picker
+
+Depending on the JS library used for the time picker, functionality may vary.
+
+Time pickers can provide:
+
+- Up/down keyboard selection
+- Incremental time selection (example: 10min/15min/30min/45min)
+- Dropdown with time selection
+
+
+<span class="text-muted">Example uses <a href="https://github.com/jdewit/bootstrap-timepicker/issues" target="_blank">bootstrap-timepicker</a> for demo purposes.</span>
+
+{::nomarkdown}
+<div class="pl-preview">
+<div class="container-fluid" style="max-width: 400px; margin: 0;">
+    <div class="row">
+        <form role="form" class="col-sm-12 form-horizontal">
+            <label class="col-sm-3 control-label">Incremental</label>
+            <div class="input-group bootstrap-timepicker timepicker">
+                <span class="input-group-addon"><i class="icon icon-clock-o"></i></span>
+                <input id="timepicker-default" type="text" class="form-control input-small">
+            </div>
+        </form>
+    </div>
+    <div class="row">&nbsp;</div>
+    <div class="row">
+        <form role="form" class="col-sm-12 form-horizontal">
+            <label class="col-sm-3 control-label">Expanded</label>
+            <div class="input-group bootstrap-timepicker timepicker">
+                <span class="input-group-addon"><i class="icon icon-clock-o"></i></span>
+                <input id="timepicker-freeform" type="text" class="form-control input-small">
+            </div>
+        </form>
+        </div>
+</div>
+
+</div>
+{:/nomarkdown}
+
+
+{% highlight html %}
+ <div class="row">
+        <form role="form" class="col-sm-12 form-horizontal">
+            <label class="col-sm-3 control-label">Label</label>
+            <div class="input-group bootstrap-timepicker timepicker">
+                <span class="input-group-addon"><i class="icon icon-clock-o"></i></span>
+                <input id="timepicker-freeform" type="text" class="form-control input-small">
+            </div>
+        </form>
+    </div>
+{% endhighlight %}
+</div>
 
 <div class="pl-pattern">
 ### Slider

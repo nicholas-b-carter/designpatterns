@@ -48,8 +48,11 @@
                         <a href="/designpatterns/1.x/docs/resources.html">Resources</a>
                     </li>
                     <li  >
-                        <a href="/designpatterns/1.x/docs/changelog.html">Changelog</a>
+                        <a href="/designpatterns/1.x/docs/guides/">Guides</a>
                     </li>
+                    <li  >
+                        <a href="/designpatterns/1.x/docs/changelog.html">Changelog</a>
+                    </li>                    
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li>
@@ -64,6 +67,8 @@
             <ul class="nav nav-stacked">
                 
                     <li class="category">foundation</li>
+                    
+                        
                     
                         
                     
@@ -154,6 +159,8 @@
                         
                     
                         
+                    
+                        
                             
                                 
                                     <li  >
@@ -171,6 +178,8 @@
                                     </li>
                                 
                             
+                        
+                    
                         
                     
                         
@@ -254,6 +263,8 @@
                         
                     
                         
+                    
+                        
                             
                         
                     
@@ -292,6 +303,8 @@
                                     </li>
                                 
                             
+                        
+                    
                         
                     
                         
@@ -354,6 +367,8 @@
                                     </li>
                                 
                             
+                        
+                    
                         
                     
                         
@@ -459,6 +474,8 @@
                         
                     
                         
+                    
+                        
                             
                                 
                                     <li  >
@@ -530,6 +547,8 @@
                     
                         
                     
+                        
+                    
                 
                     <li class="category">patterns</li>
                     
@@ -541,6 +560,16 @@
                     
                         
                     
+                        
+                    
+                        
+                            
+                                
+                                    <li  >
+                                        <a  href="/designpatterns/1.x/docs/patterns/cards.html"> Cards </a>
+                                    </li>
+                                
+                            
                         
                     
                         
@@ -654,6 +683,10 @@
                         
                     
                         
+                    
+                        
+                    
+                        
                             
                                 
                                     <li  >
@@ -712,6 +745,8 @@
                         
                     
                         
+                    
+                        
                             
                                 
                                     <li  >
@@ -734,6 +769,8 @@
                     
                         
                             
+                        
+                    
                         
                     
                         
@@ -829,6 +866,8 @@
                         
                     
                         
+                    
+                        
                             
                                 
                                     <li  >
@@ -873,6 +912,8 @@
                         
                     
                         
+                    
+                        
                             
                         
                     
@@ -898,6 +939,8 @@
                                     </li>
                                 
                             
+                        
+                    
                         
                     
                         
@@ -961,7 +1004,7 @@
 
   <ul>
     <li>Menus may have submenus, icons, dividers, category labels, and checkboxes</li>
-    <li>Menu items may change depending on the context (e.g., <code>Mark as read</code> vs <code>Mark as unread</code>)</li>
+    <li>Menu items may change depending on the context (e.g., <code class="highlighter-rouge">Mark as read</code> vs <code class="highlighter-rouge">Mark as unread</code>)</li>
     <li>Use dividers to group related menu items</li>
     <li>Use submenus to separate large sets of menu items</li>
     <li>Include keyboard shortcuts if applicable</li>
@@ -986,20 +1029,20 @@
 </ul>
 </div>
 
-  <div class="highlight">
-    <pre><code class="language-html" data-lang="html"><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">&quot;dropdown-menu&quot;</span> <span class="na">role=</span><span class="s">&quot;menu&quot;</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">&quot;presentation&quot;</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>Bold <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;pull-right text-muted&quot;</span><span class="nt">&gt;</span>Ctrl+B<span class="nt">&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">&quot;presentation&quot;</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>Italic <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;pull-right text-muted&quot;</span><span class="nt">&gt;</span>Ctrl+I<span class="nt">&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">&quot;presentation&quot;</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>Underline <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;pull-right text-muted&quot;</span><span class="nt">&gt;</span>Ctrl+U<span class="nt">&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">&quot;presentation&quot;</span> <span class="na">class=</span><span class="s">&quot;divider&quot;</span><span class="nt">&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">&quot;presentation&quot;</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>Font <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;icon icon-caret-right pull-right&quot;</span><span class="nt">&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">&quot;presentation&quot;</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>Font size <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;icon icon-caret-right pull-right&quot;</span><span class="nt">&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">&quot;presentation&quot;</span> <span class="na">class=</span><span class="s">&quot;divider&quot;</span><span class="nt">&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">&quot;presentation&quot;</span> <span class="na">class=</span><span class="s">&quot;disabled&quot;</span><span class="nt">&gt;&lt;a&gt;</span>Conditional formatting...<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">&quot;presentation&quot;</span> <span class="na">class=</span><span class="s">&quot;divider&quot;</span><span class="nt">&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">&quot;presentation&quot;</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>Clear formatting<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+  <figure class="highlight">
+    <pre><code class="language-html" data-lang="html"><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"dropdown-menu"</span> <span class="na">role=</span><span class="s">"menu"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">""</span><span class="nt">&gt;</span>Bold <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"pull-right text-muted"</span><span class="nt">&gt;</span>Ctrl+B<span class="nt">&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">""</span><span class="nt">&gt;</span>Italic <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"pull-right text-muted"</span><span class="nt">&gt;</span>Ctrl+I<span class="nt">&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">""</span><span class="nt">&gt;</span>Underline <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"pull-right text-muted"</span><span class="nt">&gt;</span>Ctrl+U<span class="nt">&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span> <span class="na">class=</span><span class="s">"divider"</span><span class="nt">&gt;&lt;/li&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">""</span><span class="nt">&gt;</span>Font <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"icon icon-caret-right pull-right"</span><span class="nt">&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">""</span><span class="nt">&gt;</span>Font size <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"icon icon-caret-right pull-right"</span><span class="nt">&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span> <span class="na">class=</span><span class="s">"divider"</span><span class="nt">&gt;&lt;/li&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span> <span class="na">class=</span><span class="s">"disabled"</span><span class="nt">&gt;&lt;a&gt;</span>Conditional formatting...<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span> <span class="na">class=</span><span class="s">"divider"</span><span class="nt">&gt;&lt;/li&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">""</span><span class="nt">&gt;</span>Clear formatting<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
 <span class="nt">&lt;/ul&gt;</span></code></pre>
-  </div>
+  </figure>
 
 </div>
 
@@ -1015,12 +1058,12 @@
     </ul>
 </div>
 
-  <div class="highlight">
-    <pre><code class="language-html" data-lang="html"><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">&quot;dropdown-menu&quot;</span> <span class="na">role=</span><span class="s">&quot;menu&quot;</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">&quot;presentation&quot;</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>Submenu item <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;icon icon-caret-right pull-right&quot;</span><span class="nt">&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">&quot;presentation&quot;</span> <span class="na">class=</span><span class="s">&quot;disabled&quot;</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>Disabled submenu item <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">&quot;icon icon-caret-right pull-right&quot;</span><span class="nt">&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;</span>
+  <figure class="highlight">
+    <pre><code class="language-html" data-lang="html"><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"dropdown-menu"</span> <span class="na">role=</span><span class="s">"menu"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">""</span><span class="nt">&gt;</span>Submenu item <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"icon icon-caret-right pull-right"</span><span class="nt">&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span> <span class="na">class=</span><span class="s">"disabled"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">""</span><span class="nt">&gt;</span>Disabled submenu item <span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"icon icon-caret-right pull-right"</span><span class="nt">&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;</span>
 <span class="nt">&lt;/ul&gt;</span></code></pre>
-  </div>
+  </figure>
 
 </div>
 
@@ -1041,14 +1084,14 @@
     </ul>
 </div>
 
-  <div class="highlight">
-    <pre><code class="language-html" data-lang="html"><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">&quot;dropdown-menu has-icon&quot;</span> <span class="na">role=</span><span class="s">&quot;menu&quot;</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">&quot;presentation&quot;</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">&quot;icon icon-fw icon-star dropdown-menu-icon&quot;</span><span class="nt">&gt;&lt;/i&gt;</span> Star<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">&quot;presentation&quot;</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>Share...<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;divider&quot;</span> <span class="na">role=</span><span class="s">&quot;presentation&quot;</span><span class="nt">&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">&quot;presentation&quot;</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">&quot;icon icon-fw icon-trash-o dropdown-menu-icon&quot;</span><span class="nt">&gt;&lt;/i&gt;</span> Remove<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+  <figure class="highlight">
+    <pre><code class="language-html" data-lang="html"><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"dropdown-menu has-icon"</span> <span class="na">role=</span><span class="s">"menu"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">""</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"icon icon-fw icon-star dropdown-menu-icon"</span><span class="nt">&gt;&lt;/i&gt;</span> Star<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">""</span><span class="nt">&gt;</span>Share...<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"divider"</span> <span class="na">role=</span><span class="s">"presentation"</span><span class="nt">&gt;&lt;/li&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">""</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"icon icon-fw icon-trash-o dropdown-menu-icon"</span><span class="nt">&gt;&lt;/i&gt;</span> Remove<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
 <span class="nt">&lt;/ul&gt;</span></code></pre>
-  </div>
+  </figure>
 
 </div>
 
@@ -1072,19 +1115,19 @@
     </ul>
 </div>
 
-  <div class="highlight">
-    <pre><code class="language-html" data-lang="html"><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">&quot;dropdown-menu has-icon&quot;</span> <span class="na">role=</span><span class="s">&quot;menu&quot;</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;dropdown-header&quot;</span><span class="nt">&gt;</span>Single-select<span class="nt">&lt;/li&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">&quot;presentation&quot;</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">&quot;icon icon-fw dropdown-menu-icon&quot;</span><span class="nt">&gt;&lt;/i&gt;</span> 1.0<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">&quot;presentation&quot;</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">&quot;icon icon-fw icon-check dropdown-menu-icon&quot;</span><span class="nt">&gt;&lt;/i&gt;</span> 1.5<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">&quot;presentation&quot;</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">&quot;icon icon-fw dropdown-menu-icon&quot;</span><span class="nt">&gt;&lt;/i&gt;</span> 2.0<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;divider&quot;</span> <span class="na">role=</span><span class="s">&quot;presentation&quot;</span><span class="nt">&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;dropdown-header&quot;</span><span class="nt">&gt;</span>Multi-select<span class="nt">&lt;/li&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">&quot;presentation&quot;</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">&quot;icon icon-fw icon-check dropdown-menu-icon&quot;</span><span class="nt">&gt;&lt;/i&gt;</span> Grid lines<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">&quot;presentation&quot;</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">&quot;icon icon-fw icon-check dropdown-menu-icon&quot;</span><span class="nt">&gt;&lt;/i&gt;</span> Rulers<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
-  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">&quot;presentation&quot;</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">&quot;icon icon-fw dropdown-menu-icon&quot;</span><span class="nt">&gt;&lt;/i&gt;</span> Margins<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+  <figure class="highlight">
+    <pre><code class="language-html" data-lang="html"><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"dropdown-menu has-icon"</span> <span class="na">role=</span><span class="s">"menu"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"dropdown-header"</span><span class="nt">&gt;</span>Single-select<span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">""</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"icon icon-fw dropdown-menu-icon"</span><span class="nt">&gt;&lt;/i&gt;</span> 1.0<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">""</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"icon icon-fw icon-check dropdown-menu-icon"</span><span class="nt">&gt;&lt;/i&gt;</span> 1.5<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">""</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"icon icon-fw dropdown-menu-icon"</span><span class="nt">&gt;&lt;/i&gt;</span> 2.0<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"divider"</span> <span class="na">role=</span><span class="s">"presentation"</span><span class="nt">&gt;&lt;/li&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"dropdown-header"</span><span class="nt">&gt;</span>Multi-select<span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">""</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"icon icon-fw icon-check dropdown-menu-icon"</span><span class="nt">&gt;&lt;/i&gt;</span> Grid lines<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">""</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"icon icon-fw icon-check dropdown-menu-icon"</span><span class="nt">&gt;&lt;/i&gt;</span> Rulers<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">role=</span><span class="s">"presentation"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">""</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"icon icon-fw dropdown-menu-icon"</span><span class="nt">&gt;&lt;/i&gt;</span> Margins<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
 <span class="nt">&lt;/ul&gt;</span></code></pre>
-  </div>
+  </figure>
 
 </div>
 
