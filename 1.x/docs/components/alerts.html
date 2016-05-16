@@ -83,6 +83,8 @@
                         
                     
                         
+                    
+                        
                             
                                 
                                     <li  >
@@ -301,6 +303,8 @@
                                     </li>
                                 
                             
+                        
+                    
                         
                     
                         
@@ -559,6 +563,16 @@
                         
                     
                         
+                            
+                                
+                                    <li  >
+                                        <a  href="/designpatterns/1.x/docs/patterns/cards.html"> Cards </a>
+                                    </li>
+                                
+                            
+                        
+                    
+                        
                     
                         
                     
@@ -755,6 +769,8 @@
                     
                         
                             
+                        
+                    
                         
                     
                         
@@ -1071,6 +1087,7 @@
     <li>They can be closable and can have other action buttons or links.</li>
     <li>Notifications with low importance (info or success) can close automatically after 5 seconds (if desired)</li>
     <li>Notifications with high importance (warning or danger) should not close automatically, unless the situation has been resolved in some other way</li>
+    <li>Optional <code class="highlighter-rouge">.toast-footer</code> can be added to further emphasize action buttons in system notifications</li>
   </ul>
 
   <p><strong>Types:</strong></p>
@@ -1127,6 +1144,18 @@
             <button type="button" class="btn btn-link">Retry now</button> 
         </div>
     </div>
+    <div class="toast toast-success">
+        <div class="toast-content">
+            <button type="button" class="close">
+                <span>&times;</span>
+            </button>
+            <span><strong>Item #3454333 deleted</strong></span><br/>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum.</span>
+        </div>
+        <div class="toast-footer">
+            <button type="button" class="btn btn-sm btn-default"><i class="icon icon-undo"></i> Revert change</button> 
+        </div>
+    </div>
 </div>
 
 <button type="button" data-toast-target="#example-toasts" class="btn btn-default show-toasts">Toggle notifications</button>
@@ -1171,6 +1200,18 @@
         </div>
         <div class="toast-actions">
             <button type="button" class="btn btn-link">Retry now</button> 
+        </div>
+    </div>
+    <div class="toast toast-success">
+        <div class="toast-content">
+            <button type="button" class="close">
+                <span>&times;</span>
+            </button>
+            <span><strong>Item #3454333 deleted</strong></span><br/>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum.</span>
+        </div>
+        <div class="toast-footer">
+            <button type="button" class="btn btn-sm btn-default"><i class="icon icon-undo"></i> Revert change</button> 
         </div>
     </div>
 </div>

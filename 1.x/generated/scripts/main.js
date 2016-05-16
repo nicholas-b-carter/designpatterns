@@ -229,6 +229,34 @@
     /* enable popovers */
     $('[data-toggle="popover"]').popover();
 
+    /* enable time pickers */
+    $('#timepicker-default').timepicker({
+        minuteStep: 15,
+        secondStep: 5,
+        showInputs: false,
+        template: 'dropdown',
+        modalBackdrop: true,
+        showSeconds: false,
+        showMeridian: true,
+        icons: {
+            up: 'icon icon-chevron-up',
+            down: 'icon icon-chevron-down'
+        }
+    });
+    $('#timepicker-freeform').timepicker({
+        minuteStep: 1,
+        secondStep: 1,
+        showInputs: false,
+        template: 'dropdown',
+        modalBackdrop: true,
+        showSeconds: true,
+        showMeridian: true,
+        icons: {
+            up: 'icon icon-chevron-up',
+            down: 'icon icon-chevron-down'
+        }
+    });
+
 
     /* enable noui sliders */
     $('[data-nouislider]').each(function () {

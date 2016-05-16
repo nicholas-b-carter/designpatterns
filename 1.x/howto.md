@@ -47,10 +47,6 @@ A basic HTML template using UI Design Library would look like this:
 </head>
 <body>
 <h1>Welcome to USPTO</h1>
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-<!-- Latest compiled JavaScript -->
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
 </html>
 ```

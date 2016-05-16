@@ -83,6 +83,8 @@
                         
                     
                         
+                    
+                        
                             
                                 
                                     <li  >
@@ -301,6 +303,8 @@
                                     </li>
                                 
                             
+                        
+                    
                         
                     
                         
@@ -559,6 +563,16 @@
                         
                     
                         
+                            
+                                
+                                    <li  >
+                                        <a  href="/designpatterns/1.x/docs/patterns/cards.html"> Cards </a>
+                                    </li>
+                                
+                            
+                        
+                    
+                        
                     
                         
                     
@@ -755,6 +769,8 @@
                     
                         
                             
+                        
+                    
                         
                     
                         
@@ -1565,6 +1581,60 @@
         <span class="nt">&lt;/div&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre>
+  </figure>
+
+</div>
+
+<div class="pl-pattern">
+  <h3 id="time-picker">Time picker</h3>
+
+  <p>Depending on the JS library used for the time picker, functionality may vary.</p>
+
+  <p>Time pickers can provide:</p>
+
+  <ul>
+    <li>Up/down keyboard selection</li>
+    <li>Incremental time selection (example: 10min/15min/30min/45min)</li>
+    <li>Dropdown with time selection</li>
+  </ul>
+
+  <p><span class="text-muted">Example uses <a href="https://github.com/jdewit/bootstrap-timepicker/issues" target="_blank">bootstrap-timepicker</a> for demo purposes.</span></p>
+
+<div class="pl-preview">
+<div class="container-fluid" style="max-width: 400px; margin: 0;">
+    <div class="row">
+        <form role="form" class="col-sm-12 form-horizontal">
+            <label class="col-sm-3 control-label">Incremental</label>
+            <div class="input-group bootstrap-timepicker timepicker">
+                <span class="input-group-addon"><i class="icon icon-clock-o"></i></span>
+                <input id="timepicker-default" type="text" class="form-control input-small">
+            </div>
+        </form>
+    </div>
+    <div class="row">&nbsp;</div>
+    <div class="row">
+        <form role="form" class="col-sm-12 form-horizontal">
+            <label class="col-sm-3 control-label">Expanded</label>
+            <div class="input-group bootstrap-timepicker timepicker">
+                <span class="input-group-addon"><i class="icon icon-clock-o"></i></span>
+                <input id="timepicker-freeform" type="text" class="form-control input-small">
+            </div>
+        </form>
+        </div>
+</div>
+
+</div>
+
+  <figure class="highlight">
+    <pre><code class="language-html" data-lang="html"> <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;form</span> <span class="na">role=</span><span class="s">"form"</span> <span class="na">class=</span><span class="s">"col-sm-12 form-horizontal"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;label</span> <span class="na">class=</span><span class="s">"col-sm-3 control-label"</span><span class="nt">&gt;</span>Label<span class="nt">&lt;/label&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"input-group bootstrap-timepicker timepicker"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"input-group-addon"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"icon icon-clock-o"</span><span class="nt">&gt;&lt;/i&gt;&lt;/span&gt;</span>
+                <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"timepicker-freeform"</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">class=</span><span class="s">"form-control input-small"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;/form&gt;</span>
+    <span class="nt">&lt;/div&gt;</span></code></pre>
   </figure>
 
 </div>
