@@ -231,6 +231,12 @@ module.exports = function (grunt) {
                     cwd: 'front/',
                     src: 'favicon.ico',
                     dest: '<%= paths.assets %>/'
+                }, { // copy vendor files
+                    dot: true,
+                    expand: true,
+                    cwd: 'generated/styles',
+                    src: 'vendor.css',
+                    dest: '<%= paths.downloads %>/vendor'
                 }, { // usptostrap src to downloads folder
                     dot: false,
                     expand: true,
