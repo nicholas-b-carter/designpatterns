@@ -80,7 +80,7 @@ Cards support a wide variety of content, including images, text, list groups, li
 
 
 #### Image position & image caps
-Images can be positioned inside of cards quickly and easily with `.card-image`.  Be sure to set `.img-responsive` to allow the card to shrink and grow responsively.
+Images can be positioned inside of cards quickly and easily with `.card-image`.  Be sure to set `.img-responsive` to allow the image to shrink and grow responsively.
 
 {::nomarkdown}
 <div class="pl-preview">
