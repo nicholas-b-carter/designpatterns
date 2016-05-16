@@ -128,5 +128,52 @@ Useful for few labels/values.
 </dl>
 {% endhighlight %}
 
+#### Inverse
+For scenarios where the label pair bolding should be reversed use `.dl-inverse`.
+
+{::nomarkdown}
+<div class="pl-preview">
+<div class="row">
+    <div class="col-md-6">
+        <dl class="dl-horizontal dl-inverse">
+            <dt>Examiner</dt>
+            <dd>IP, Sikyin / 69776 / 1742</dd>
+            <dt>SPE (multiple)</dt>
+            <dd>John Olaskey</dd>
+            <dt>Applicants</dt>
+            <dd>Roman Amirpur</dd>
+            <dt>Inventors</dt>
+            <dd>Disney Dale</dd>
+            <dt>Law firm</dt>
+            <dd>Clayton & Clayton Associates</dd>
+        </dl>
+    </div>
+    <div class="col-md-6">
+        <dl class="dl-horizontal dl-inverse">
+            <dt>Confirmation #</dt>
+            <dd>1662</dd>
+            <dt>Publication #</dt>
+            <dd><a href="">32132132132 <i class="icon icon-external-link"></i></a></dd>
+            <dt>Patent #</dt>
+            <dd>&mdash;</dd>
+            <dt>Attorney docket #</dt>
+            <dd>10951/1202</dd>
+            <dt>Foreign priority claimed</dt>
+            <dd>Yes</dd>
+        </dl>
+    </div>
+</div>
+</div>
+{:/nomarkdown}
+
+
+{% highlight html %}
+<dl class="dl-horizontal dl-inverse">
+    <dt>Confirmation #</dt>
+    <dd>1662</dd>
+    <dt>Patent #</dt>
+    <dd>&mdash;</dd>
+</dl>
+{% endhighlight %}
 </div>
 
