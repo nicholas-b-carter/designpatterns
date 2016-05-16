@@ -96,6 +96,7 @@ Users need to be aware of important information related to the system.
 - They can be closable and can have other action buttons or links.
 - Notifications with low importance (info or success) can close automatically after 5 seconds (if desired)
 - Notifications with high importance (warning or danger) should not close automatically, unless the situation has been resolved in some other way
+- Optional `.toast-footer` can be added to further emphasize action buttons in system notifications
 
 __Types:__
 
@@ -150,6 +151,18 @@ __Types:__
             <button type="button" class="btn btn-link">Retry now</button> 
         </div>
     </div>
+    <div class="toast toast-success">
+        <div class="toast-content">
+            <button type="button" class="close">
+                <span>&times;</span>
+            </button>
+            <span><strong>Item #3454333 deleted</strong></span><br/>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum.</span>
+        </div>
+        <div class="toast-footer">
+            <button type="button" class="btn btn-sm btn-default"><i class="icon icon-undo"></i> Revert change</button> 
+        </div>
+    </div>
 </div>
 
 <button type="button" data-toast-target="#example-toasts" class="btn btn-default show-toasts">Toggle notifications</button>
@@ -194,6 +207,18 @@ __Types:__
         </div>
         <div class="toast-actions">
             <button type="button" class="btn btn-link">Retry now</button> 
+        </div>
+    </div>
+    <div class="toast toast-success">
+        <div class="toast-content">
+            <button type="button" class="close">
+                <span>&times;</span>
+            </button>
+            <span><strong>Item #3454333 deleted</strong></span><br/>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum.</span>
+        </div>
+        <div class="toast-footer">
+            <button type="button" class="btn btn-sm btn-default"><i class="icon icon-undo"></i> Revert change</button> 
         </div>
     </div>
 </div>
