@@ -26,9 +26,9 @@ module.exports = function (grunt) {
                 files: ['front/scripts/{,*/}*.js'],
                 tasks: ['jshint', 'concat:mainjs', 'concat:appDemojs']
             },
-            less: {
-                files: ['usptostrap/less/**/*.less', 'front/styles/**/*.less'],
-                tasks: ['less', 'usebanner', 'concat:maincss', 'autoprefixer']
+            sass: {
+                files: ['usptostrap/sass/**/*.sass', 'front/styles/**/*.sass'],
+                tasks: ['sass', 'usebanner', 'concat:maincss', 'autoprefixer']
             }
         },
 
@@ -46,19 +46,13 @@ module.exports = function (grunt) {
             },
         },
 
-        // Lint LESS
-        lesslint: {
-            src: ['usptostrap/less/**/*.less', 'front/styles/**/*.less'],
+        sasslint: {
             options: {
-                csslint: {
-                    'box-model': false,
-                    'adjoining-classes': false,
-                    'qualified-headings': false,
-                    'empty-rules': false,
-                    'outline-none': false,
-                    'unique-headings': false
-                }
-            }
+                configFile: '_sass-lint.yml',
+                formatter: 'junit',
+                outputFile: 'report.xml'
+            },
+            target: ['front/*.scss', 'usptostrap/sass/**/*.scss']
         },
 
         // Lint JS
@@ -73,35 +67,35 @@ module.exports = function (grunt) {
             ]
         },
 
-        // LESS -> CSS
-        less: {
-            options: {
-                paths: ['usptostrap/less', 'bower_components'],
-                compress: true
-                //sourceMap: true
+        sass: {
+            includePaths: {
+                options: {
+                    includePaths: ['usptostrap/sass', 'bower_components']
+                }
             },
-            dist: {
+            dist:{
                 files: [{
                     expand: true,
-                    cwd: 'usptostrap/less',
-                    src: ['usptostrap.less'],
+                    cwd: 'usptostrap/sass',
+                    src: ['usptostrap.scss'],
                     dest: '<%= paths.downloads %>/css/',
                     ext: '.min.css'
                 }, {
                     expand: true,
                     cwd: 'front/styles',
-                    src: ['pattern-library.less'],
+                    src: ['pattern-library.scss'],
                     dest: '<%= paths.assets %>/styles',
                     ext: '.css'
                 }, {
                     expand: true,
                     cwd: 'front/styles/appDemo',
-                    src: ['appDemo.less'],
+                    src: ['appDemo.scss'],
                     dest: '<%= paths.assets %>/styles',
                     ext: '.min.css'
                 }]
             }
-        },
+        }, // sass
+
 
         // Add vendor prefixed styles to CSS
         autoprefixer: {
@@ -139,18 +133,18 @@ module.exports = function (grunt) {
         concat: {
             // bootstrap plugins
             pluginsjs: {
-                src: ['bower_components/bootstrap/js/affix.js',
-                    'bower_components/bootstrap/js/alert.js',
-                    'bower_components/bootstrap/js/dropdown.js',
-                    'bower_components/bootstrap/js/tooltip.js',
-                    'bower_components/bootstrap/js/modal.js',
-                    'bower_components/bootstrap/js/transition.js',
-                    'bower_components/bootstrap/js/button.js',
-                    'bower_components/bootstrap/js/popover.js',
-                    'bower_components/bootstrap/js/carousel.js',
-                    'bower_components/bootstrap/js/scrollspy.js',
-                    'bower_components/bootstrap/js/collapse.js',
-                    'bower_components/bootstrap/js/tab.js',],
+                src: ['bower_components/bootstrap-sass/assets/javascripts/affix.js',
+                    'bower_components/bootstrap-sass/assets/javascripts/alert.js',
+                    'bower_components/bootstrap-sass/assets/javascripts/dropdown.js',
+                    'bower_components/bootstrap-sass/assets/javascripts/tooltip.js',
+                    'bower_components/bootstrap-sass/assets/javascripts/modal.js',
+                    'bower_components/bootstrap-sass/assets/javascripts/transition.js',
+                    'bower_components/bootstrap-sass/assets/javascripts/button.js',
+                    'bower_components/bootstrap-sass/assets/javascripts/popover.js',
+                    'bower_components/bootstrap-sass/assets/javascripts/carousel.js',
+                    'bower_components/bootstrap-sass/assets/javascripts/scrollspy.js',
+                    'bower_components/bootstrap-sass/assets/javascripts/collapse.js',
+                    'bower_components/bootstrap-sass/assets/javascripts/tab.js',],
                 dest: '<%= paths.assets %>/scripts/plugins.js'
             },
             // misc vendor
@@ -196,7 +190,7 @@ module.exports = function (grunt) {
             }
         },
 
-        // Add a banner to the top of the generated LESS file.
+        // Add a banner to the top of the generated sass file.
         usebanner: {
             taskName: {
                 options: {
@@ -257,11 +251,11 @@ module.exports = function (grunt) {
             }
         },
 
-        // Zips up src less files, images, and minified css
+        // Zips up src sass files, images, and minified css
         zip: {
             '<%= paths.downloads %>/usptostrap-<%= config.version %>.zip': ['<%= paths.downloads %>/**/*']
         },
-        
+
         //Jekyll Tasks
         jekyll: {
             release : {
@@ -275,7 +269,8 @@ module.exports = function (grunt) {
     grunt.registerTask('build', [
         'clean:dist',
         'jshint',
-        'less',
+        'sasslint',
+        'sass',
         'imagemin',
         'usebanner',
         'concat',
@@ -283,13 +278,14 @@ module.exports = function (grunt) {
         'copy:dist',
         'zip'
     ]);
-    
+
     // Use caution, this will overwrite files.
     //This will overwrite the 1x folder
     grunt.registerTask('doversionedrelease', [
         'clean:dist',
         'jshint',
-        'less',
+        'sasslint',
+        'sass',
         'imagemin',
         'usebanner',
         'concat',

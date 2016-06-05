@@ -26,9 +26,9 @@ module.exports = function (grunt) {
                 files: ['front/scripts/{,*/}*.js'],
                 tasks: ['jshint', 'concat:mainjs', 'concat:appDemojs']
             },
-            less: {
-                files: ['usptostrap/less/**/*.less', 'front/styles/**/*.less'],
-                tasks: ['less', 'usebanner', 'concat:maincss', 'autoprefixer']
+            sass: {
+                files: ['usptostrap/sass/**/*.scss', 'front/styles/**/*.scss'],
+                tasks: ['sass', 'usebanner', 'concat:maincss', 'autoprefixer']
             }
         },
 
@@ -261,7 +261,7 @@ module.exports = function (grunt) {
         zip: {
             '<%= paths.downloads %>/usptostrap-<%= config.version %>.zip': ['<%= paths.downloads %>/**/*']
         },
-        
+
         //Jekyll Tasks
         jekyll: {
             release : {
@@ -283,7 +283,7 @@ module.exports = function (grunt) {
         'copy:dist',
         'zip'
     ]);
-    
+
     // Use caution, this will overwrite files.
     //This will overwrite the 1x folder
     grunt.registerTask('doversionedrelease', [

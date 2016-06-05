@@ -36,5 +36,8 @@
     "howto.md",
     "index.html",
     "todo.md"
-  ]
+  ],
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.6"
+  }
 }
