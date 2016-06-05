@@ -70,7 +70,9 @@ module.exports = function (grunt) {
         sass: {
             includePaths: {
                 options: {
-                    includePaths: ['usptostrap/sass', 'bower_components']
+                    includePaths: ['usptostrap/sass', 'bower_components'],
+                    compress: true,
+                    sourceMap: true
                 }
             },
             dist:{
