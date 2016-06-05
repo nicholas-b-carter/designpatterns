@@ -21,42 +21,42 @@ IP (Noun Project) Icons $ 48px
 		position: relative;
 		top: 2px;
 		background-repeat: no-repeat;
-		background-image: url("images/icons/black.svg");
+		background-image: url("../images/icons/black.svg");
 	}
 }
 .icon.icon-inverse {
 	&:after {
-		background-image: url("images/icons/white.svg");
+		background-image: url("../images/icons/white.svg");
 	}
 }
 .icon.icon-color-success {
 	&:after {
-		background-image: url("images/icons/success.svg");
+		background-image: url("../images/icons/success.svg");
 	}
 }
 .icon.icon-color-danger {
 	&:after {
-		background-image: url("images/icons/danger.svg");
+		background-image: url("../images/icons/danger.svg");
 	}
 }
 .icon.icon-color-warning {
 	&:after {
-		background-image: url("images/icons/warning.svg");
+		background-image: url("../images/icons/warning.svg");
 	}
 }
 .icon.icon-color-primary {
 	&:after {
-		background-image: url("images/icons/primary.svg");
+		background-image: url("../images/icons/primary.svg");
 	}
 }
 .icon.icon-color-info {
 	&:after {
-		background-image: url("images/icons/info.svg");
+		background-image: url("../images/icons/info.svg");
 	}
 }
 .icon.icon-masked {
 	&:after {
-		background-image: url("images/icons/mask.svg");
+		background-image: url("../images/icons/mask.svg");
 	}
 }
 .icon-muted {
@@ -70,7 +70,7 @@ IP (Noun Project) Icons $ 48px
 		top: 2px;
 		vertical-align: middle;
 		background-repeat: no-repeat;
-		background-image: url("images/icons/IPicons-large.svg");
+		background-image: url("../images/icons/IPicons-large.svg");
 	}
 }
 .icon-px {

@@ -5,3 +5,4 @@ bower_components
 _site
 .vagrant
 report.xml
+.sass-cache

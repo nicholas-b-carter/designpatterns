@@ -70,12 +70,14 @@ module.exports = function (grunt) {
         sass: {
             includePaths: {
                 options: {
-                    includePaths: ['usptostrap/sass', 'bower_components'],
-                    compress: true,
-                    sourceMap: true
+                    includePaths: ['usptostrap/sass', 'bower_components']
                 }
             },
             dist:{
+                options:  {
+                    sourcemap:  'auto',
+                    style: 'compressed'
+                },
                 files: [{
                     expand: true,
                     cwd: 'usptostrap/sass',
@@ -96,7 +98,7 @@ module.exports = function (grunt) {
                     ext: '.min.css'
                 }]
             }
-        }, // sass
+        },
 
 
         // Add vendor prefixed styles to CSS
@@ -114,7 +116,7 @@ module.exports = function (grunt) {
                     expand: true,
                     cwd: '<%= paths.downloads %>/css/',
                     src: 'usptostrap.min.css',
-                    dest: '<%= paths.downloads %>/css/',
+                    dest: '<%= paths.downloads %>/css/'
                 }]
             }
         },
@@ -135,18 +137,18 @@ module.exports = function (grunt) {
         concat: {
             // bootstrap plugins
             pluginsjs: {
-                src: ['bower_components/bootstrap-sass/assets/javascripts/affix.js',
-                    'bower_components/bootstrap-sass/assets/javascripts/alert.js',
-                    'bower_components/bootstrap-sass/assets/javascripts/dropdown.js',
-                    'bower_components/bootstrap-sass/assets/javascripts/tooltip.js',
-                    'bower_components/bootstrap-sass/assets/javascripts/modal.js',
-                    'bower_components/bootstrap-sass/assets/javascripts/transition.js',
-                    'bower_components/bootstrap-sass/assets/javascripts/button.js',
-                    'bower_components/bootstrap-sass/assets/javascripts/popover.js',
-                    'bower_components/bootstrap-sass/assets/javascripts/carousel.js',
-                    'bower_components/bootstrap-sass/assets/javascripts/scrollspy.js',
-                    'bower_components/bootstrap-sass/assets/javascripts/collapse.js',
-                    'bower_components/bootstrap-sass/assets/javascripts/tab.js',],
+                src: ['bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js',
+                    'bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js',
+                    'bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js',
+                    'bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js',
+                    'bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js ',
+                    'bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js',
+                    'bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js',
+                    'bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js',
+                    'bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js',
+                    'bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js',
+                    'bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js',
+                    'bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js'],
                 dest: '<%= paths.assets %>/scripts/plugins.js'
             },
             // misc vendor
