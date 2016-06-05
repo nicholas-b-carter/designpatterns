@@ -141,7 +141,7 @@ module.exports = function (grunt) {
                     'bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js',
                     'bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js',
                     'bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js',
-                    'bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js ',
+                    'bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js',
                     'bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js',
                     'bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js',
                     'bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js',
