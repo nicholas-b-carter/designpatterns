@@ -27,7 +27,7 @@ module.exports = function (grunt) {
                 tasks: ['jshint', 'concat:mainjs', 'concat:appDemojs']
             },
             sass: {
-                files: ['usptostrap/sass/**/*.sass', 'front/styles/**/*.sass'],
+                files: ['front/{,*/}*.scss', 'usptostrap/{,*/}*.scss'],
                 tasks: ['sass', 'usebanner', 'concat:maincss', 'autoprefixer']
             }
         },
@@ -52,7 +52,7 @@ module.exports = function (grunt) {
                 formatter: 'junit',
                 outputFile: 'report.xml'
             },
-            target: ['front/*.scss', 'usptostrap/sass/**/*.scss']
+            target: ['front/{,*/}*.scss', 'usptostrap/{,*/}*.scss']
         },
 
         // Lint JS
