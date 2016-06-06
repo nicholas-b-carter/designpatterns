@@ -6,3 +6,4 @@ _site
 .vagrant
 report.xml
 .sass-cache
+.idea
