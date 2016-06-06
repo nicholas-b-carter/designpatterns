@@ -27,7 +27,7 @@ module.exports = function (grunt) {
                 tasks: ['jshint', 'concat:mainjs', 'concat:appDemojs']
             },
             sass: {
-                files: ['usptostrap/sass/**/*.sass', 'front/styles/**/*.sass'],
+                files: ['usptostrap/sass/**/*.scss', 'front/styles/**/*.scss'],
                 tasks: ['sass', 'usebanner', 'concat:maincss', 'autoprefixer']
             }
         },
