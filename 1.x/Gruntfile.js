@@ -23,7 +23,7 @@ module.exports = function (grunt) {
         // Watches files for changes and runs tasks based on the changed files
         watch: {
             js: {
-                files: ['front/scripts/{,*/}*.js'],
+                files: ['front/{,*/}*.js'],
                 tasks: ['jshint', 'concat:mainjs', 'concat:appDemojs']
             },
             sass: {
@@ -43,7 +43,7 @@ module.exports = function (grunt) {
                         '<%= paths.downloads %>'
                     ]
                 }]
-            },
+            }
         },
 
         sasslint: {
@@ -52,7 +52,7 @@ module.exports = function (grunt) {
                 formatter: 'junit',
                 outputFile: 'report.xml'
             },
-            target: ['front/*.scss', 'usptostrap/sass/**/*.scss']
+            target: ['usptostrap/sass/**/*.scss', 'front/styles/**/*.scss']
         },
 
         // Lint JS
@@ -61,10 +61,7 @@ module.exports = function (grunt) {
                 jshintrc: '.jshintrc',
                 reporter: require('jshint-stylish')
             },
-            all: [
-                'Gruntfile.js',
-                'front/scripts{,*/}*.js'
-            ]
+            build: ['Grunfile.js', 'front/**/*.js', '!front/vendor/**']
         },
 
         sass: {
@@ -75,8 +72,8 @@ module.exports = function (grunt) {
             },
             dist:{
                 options:  {
-                    sourcemap:  'auto',
-                    style: 'compressed'
+                    style: 'compact',
+                    sourcemap: false
                 },
                 files: [{
                     expand: true,
@@ -226,7 +223,7 @@ module.exports = function (grunt) {
                 }, { // favicon sprite to assets folder
                     dot: true,
                     expand: true,
-                    cwd: 'front/',
+                    cwd: 'front',
                     src: 'favicon.ico',
                     dest: '<%= paths.assets %>/'
                 }, { // copy vendor files
